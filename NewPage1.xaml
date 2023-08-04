@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppJogoDaForca.NewPage1"
+             Title="NewPage1">
+    <FlexLayout Direction="Column" JustifyContent="SpaceBetween">
+        <Button Text="Reniciar" Clicked="Button_ClickedResetGamer" HorizontalOptions="Center" Margin="0,20,0,0"/>
+        <Image x:Name="ImageUrl" 
+            Source="forca1.png"
+            HeightRequest="200"
+            HorizontalOptions="Center" 
+            Margin="0,20,0,0"/>
+        <Label x:Name="LabelTips"
+            Text=""
+            FontSize="30"
+            HorizontalOptions="Center"/>
+        <Label x:Name="LabelText"
+               Text=""
+               CharacterSpacing="5"
+               HorizontalOptions="Center"
+               FontSize="36"/>
+        <VerticalStackLayout x:Name="KeyBoard" Spacing="10">
+            <HorizontalStackLayout  HorizontalOptions="Center" Spacing="2">
+                <Button Text="Q" Clicked="Button_Clicked"/>
+                <Button Text="W" Clicked="Button_Clicked"/>
+                <Button Text="E" Clicked="Button_Clicked"/>
+                <Button Text="R" Clicked="Button_Clicked"/>
+                <Button Text="T" Clicked="Button_Clicked"/>
+                <Button Text="Y" Clicked="Button_Clicked"/>
+                <Button Text="U" Clicked="Button_Clicked"/>
+                <Button Text="I" Clicked="Button_Clicked"/>
+                <Button Text="O" Clicked="Button_Clicked"/>
+                <Button Text="P" Clicked="Button_Clicked"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout  HorizontalOptions="Center" Spacing="2">
+                <Button Text="A" Clicked="Button_Clicked"/>
+                <Button Text="S" Clicked="Button_Clicked"/>
+                <Button Text="D" Clicked="Button_Clicked"/>
+                <Button Text="F" Clicked="Button_Clicked"/>
+                <Button Text="G" Clicked="Button_Clicked"/>
+                <Button Text="H" Clicked="Button_Clicked"/>
+                <Button Text="J" Clicked="Button_Clicked"/>
+                <Button Text="K" Clicked="Button_Clicked"/>
+                <Button Text="L" Clicked="Button_Clicked"/>
+                <Button Text="Ç" Clicked="Button_Clicked"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center" Margin="0,0,0,10" Spacing="2">
+                <Button Text="Z" Clicked="Button_Clicked"/>
+                <Button Text="X" Clicked="Button_Clicked"/>
+                <Button Text="C" Clicked="Button_Clicked"/>
+                <Button Text="V" Clicked="Button_Clicked"/>
+                <Button Text="B" Clicked="Button_Clicked"/>
+                <Button Text="N" Clicked="Button_Clicked"/>
+                <Button Text="M" Clicked="Button_Clicked"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </FlexLayout>
+
+</ContentPage>
