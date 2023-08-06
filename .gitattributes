@@ -1,4 +1,4 @@
 * linguist-vendored
 *.LLVM linguist-vendored=false
 *.JAVA linguist-vendored=false
-*.C# linguist-detectable=true
+*.C# linguist-vendored=true
