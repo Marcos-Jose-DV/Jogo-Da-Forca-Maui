@@ -1,1 +1,2 @@
-
+* linguist-vendored
+*.llvm linguist-vendored=false
